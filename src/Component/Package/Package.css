@@ -1,0 +1,84 @@
+.dimages{
+    background-image: url(https://jingleholidaybazar.com/banner/jingle-holid…-domestic-packages-blogs-tour-package-banner.webp);
+    width: 100%;
+    height: 600px;
+}
+
+#Dbox{
+   
+    display: flex;
+    margin: 0px 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 20px;
+    border: 1px solid red;
+    overflow: hidden;
+    
+}
+#Dbox:hover .imageD {
+    display: none;
+
+}
+#Dbox:hover .Dinfo{
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-family: serif;
+    font-weight: 500;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.imageD{
+    
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+.imageD img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+    background-size: cover;
+    padding: 4% 0px;
+}
+.Dinfo{
+   
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    
+
+}
+.Dinfo h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    color: orangered;
+
+}
+.Dinfo p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-align: justify;
+    
+}
+.Dinfo button{
+    font-size: 25px;
+    background: cyan;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    box-shadow: 0 0 5px, 0 0 10px;
+    text-align: center;
+    padding: 3px 10px;
+
+}
+.Dinfo button:hover{
+    box-shadow: 0 0 5px cyan,0 0 10px cyan, 0 0 5px cyan,0 0 10px cyan;
+}
